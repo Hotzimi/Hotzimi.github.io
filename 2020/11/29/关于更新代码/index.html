@@ -5,8 +5,6 @@
   <!-- SEO相关 -->
   
     
-      <meta name="robots" content="noindex,follow">
-    
   
   <!-- 渲染优化 -->
   <meta http-equiv='x-dns-prefetch-control' content='on' />
@@ -21,7 +19,7 @@
 
   <!-- 页面元数据 -->
   
-  <title>Archive: 2020 - 拨雪寻春</title>
+  <title>关于更新代码 - 拨雪寻春</title>
   
 
   
@@ -56,7 +54,7 @@
 <body>
   
 
-<header id="l_header" class="l_header auto shadow blur " style='opacity: 0' >
+<header id="l_header" class="l_header auto shadow blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -211,7 +209,7 @@
     <div id="l_cover">
   
     
-        <div id="half" class='cover-wrapper  dock' style="display: ;">
+        <div id="full" class='cover-wrapper post dock' style="display: none;">
           
             <div id='cover-backstretch'></div>
           
@@ -280,325 +278,324 @@
         
 
 <div class='l_main'>
-	
-		
-  <section class="post-list">
-    
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
+  <article class="article post white-box reveal md shadow article-type-post" id="post" itemscope itemprop="blogPost">
+  
+
+
+  
+  <div class="article-meta" id="top">
     
     
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-  
     
-    <h2 class="article-title" >
-      <a href="/2020/11/29/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/">
+      <h1 class="title">
         关于更新代码
-      </a>
-    </h2>
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author'>
+  <a class='author' href="/" rel="nofollow">
+    <img no-lazy src="">
+    <p>Hotzimi</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class='new-meta-item category'>
+    <a class='notlink'>
+      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+      <a class="category-link" href="/categories/%E6%8C%87%E5%8D%97/">指南</a>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：Nov 29, 2020</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class="new-meta-item browse leancloud">
+    <a class='notlink'>
+      
+      <div id="lc-pv" data-title="关于更新代码" data-path="/2020/11/29/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/">
+        <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+        <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+        次浏览
+      </div>
+    </a>
+  </div>
+
+
+          
+        
+      </div>
+    
+  </div>
+
+
   
-  <div class='md'>
+  <h3 id="上传本地代码"><a href="#上传本地代码" class="headerlink" title="上传本地代码"></a>上传本地代码</h3><p>第一步：去github上创建自己的Repository，创建页面如下图所示：<br><img src="https://img-blog.csdn.net/20180415105601282?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phc29uTGVlX2xpamlhcWk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" class="lazyload" data-srcset="https://img-blog.csdn.net/20180415105601282?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phc29uTGVlX2xpamlhcWk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" srcset="data:image/png;base64,666" alt="这里写图片描述"><br>红框为新建的仓库的https地址<br><img src="https://img-blog.csdn.net/20180415105743728?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phc29uTGVlX2xpamlhcWk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" class="lazyload" data-srcset="https://img-blog.csdn.net/20180415105743728?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phc29uTGVlX2xpamlhcWk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" srcset="data:image/png;base64,666" alt="这里写图片描述"><br>第二步：</p>
+<blockquote>
+<p>echo “# aaa” &gt;&gt; README.md<br>注意：aaa是新创建的仓库名</p>
+</blockquote>
+<p>第三步：建立git仓库</p>
+<blockquote>
+<p>git init</p>
+</blockquote>
+<p>第四步：将项目的所有文件添加到仓库中</p>
+<blockquote>
+<p>git add .</p>
+</blockquote>
+<p>第五步：</p>
+<blockquote>
+<p>git add README.md</p>
+</blockquote>
+<p>第六步：提交到仓库</p>
+<blockquote>
+<p>git commit -m “注释语句”</p>
+</blockquote>
+<p>第七步：将本地的仓库关联到GitHub，后面的https改成刚刚自己的地址，上面的红框处</p>
+<blockquote>
+<p>git remote add origin <a target="_blank" rel="noopener" href="https://github.com/zlxzlxzlx/Test.git">https://github.com/zlxzlxzlx/Test.git</a></p>
+</blockquote>
+<p>第八步：上传github之前pull一下</p>
+<blockquote>
+<p>git pull origin master</p>
+</blockquote>
+<p>如果出现这个错误：git pull 失败 ,提示：fatal: refusing to merge unrelated histories<br>可以使用下面这条命令执行：</p>
+<blockquote>
+<p>git pull origin master –allow-unrelated-histories</p>
+</blockquote>
+<p>第九步：上传代码到GitHub远程仓库</p>
+<blockquote>
+<p>git push -u origin master</p>
+</blockquote>
+<p>中间可能会让你输入Username和Password，你只要输入github的账号和密码就行了。执行完后，如果没有异常，等待执行完就上传成功了。</p>
+<hr>
+<h3 id="上传一个已经存在的代码到某一个仓库中"><a href="#上传一个已经存在的代码到某一个仓库中" class="headerlink" title="上传一个已经存在的代码到某一个仓库中"></a>上传一个已经存在的代码到某一个仓库中</h3><p>前提是创建好一个仓库</p>
+<h3 id="1-进入本地的项目目录，右键“Git-Bash-here”-调出git命令行界面，然后输入"><a href="#1-进入本地的项目目录，右键“Git-Bash-here”-调出git命令行界面，然后输入" class="headerlink" title="1.进入本地的项目目录，右键“Git Bash here”,调出git命令行界面，然后输入"></a>1.进入本地的项目目录，右键“Git Bash here”,调出git命令行界面，然后输入</h3><blockquote>
+<p>git init</p>
+</blockquote>
+<h4 id="2-就是将目录下的所有文件上传，也可以将“-”换成具体的文件名"><a href="#2-就是将目录下的所有文件上传，也可以将“-”换成具体的文件名" class="headerlink" title="2.就是将目录下的所有文件上传，也可以将“.”换成具体的文件名"></a>2.就是将目录下的所有文件上传，也可以将“.”换成具体的文件名</h4><blockquote>
+<p>git add .<br>git commit -m “上传的版本信息”</p>
+</blockquote>
+<p>第一个语句是文件名，第二个语句是摘要，就是我们不同版本修改的摘要：</p>
+<p>如果只想上传某一个文件</p>
+<blockquote>
+<p>git add a.txt</p>
+</blockquote>
+<h4 id="3-将本地的代码关联到github上"><a href="#3-将本地的代码关联到github上" class="headerlink" title="3.将本地的代码关联到github上"></a>3.将本地的代码关联到github上</h4><blockquote>
+<p>git remote add origin 项目的github地址（<a href="mailto:&#x67;&#x69;&#x74;&#x40;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#46;&#99;&#x6f;&#109;">&#x67;&#x69;&#x74;&#x40;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#46;&#99;&#x6f;&#109;</a>:JasonLeeLJQ:aaa）<br>或者 git remote add origin <a target="_blank" rel="noopener" href="https://github.com/JasonLeeLJQ/aaa.git">https://github.com/JasonLeeLJQ/aaa.git</a><br>该地址从下图获得<br><img src="https://img-blog.csdn.net/20180415112558181?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phc29uTGVlX2xpamlhcWk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" class="lazyload" data-srcset="https://img-blog.csdn.net/20180415112558181?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phc29uTGVlX2xpamlhcWk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" srcset="data:image/png;base64,666" alt="这里写图片描述"></p>
+</blockquote>
+<h4 id="4-上传代码到github之前需要先pull"><a href="#4-上传代码到github之前需要先pull" class="headerlink" title="4.上传代码到github之前需要先pull"></a>4.上传代码到github之前需要先pull</h4><p>git pull origin master</p>
+<h4 id="5-上传代码到远程仓库"><a href="#5-上传代码到远程仓库" class="headerlink" title="5.上传代码到远程仓库"></a>5.上传代码到远程仓库</h4><p>git push -u origin master</p>
+<p>之后输入账号，密码,上传到github</p>
+<h4 id="2、上传到github"><a href="#2、上传到github" class="headerlink" title="2、上传到github"></a>2、上传到github</h4><blockquote>
+<p>git push origin master</p>
+</blockquote>
+<p>这个时候就上传成功了，快去你的github上查看吧</p>
+<hr>
+<h3 id="更新代码"><a href="#更新代码" class="headerlink" title="更新代码"></a>更新代码</h3><p>第一步：查看当前的git仓库状态，可以使用git status</p>
+<blockquote>
+<p>git status</p>
+</blockquote>
+<p>第二步：更新全部</p>
+<blockquote>
+<p>git add *</p>
+</blockquote>
+<p>第三步：接着输入git commit -m “更新说明”</p>
+<blockquote>
+<p>git commit -m “更新说明”</p>
+</blockquote>
+<p>第四步：先git pull,拉取当前分支最新代码（也就是获取GitHub上的最新代码信息，更新本地代码）</p>
+<blockquote>
+<p>git pull</p>
+</blockquote>
+<p>第五步：push到远程master分支上（修改本地代码后，再更新GitHub上的代码）</p>
+<blockquote>
+<p>git push origin master</p>
+</blockquote>
+<p>不出意外，打开GitHub已经同步了</p>
+<h3 id="总之，先pull，再push"><a href="#总之，先pull，再push" class="headerlink" title="总之，先pull，再push"></a>总之，先pull，再push</h3><hr>
+<h2 id="提交代码到其他分支"><a href="#提交代码到其他分支" class="headerlink" title="提交代码到其他分支"></a>提交代码到其他分支</h2><h3 id="一、提交代码"><a href="#一、提交代码" class="headerlink" title="一、提交代码"></a>一、提交代码</h3><h4 id="1、提交代码到本地库中"><a href="#1、提交代码到本地库中" class="headerlink" title="1、提交代码到本地库中"></a>1、提交代码到本地库中</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &#39;描述内容&#39;1</span><br></pre></td></tr></table></figure>
+
+<h4 id="2、拉取该分支下的内容，与自己在本地库改写的合并"><a href="#2、拉取该分支下的内容，与自己在本地库改写的合并" class="headerlink" title="2、拉取该分支下的内容，与自己在本地库改写的合并"></a>2、拉取该分支下的内容，与自己在本地库改写的合并</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin &lt;分支名称&gt;1</span><br></pre></td></tr></table></figure>
+
+<h4 id="3、提交代码到github上"><a href="#3、提交代码到github上" class="headerlink" title="3、提交代码到github上"></a>3、提交代码到github上</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin &lt;分支名称&gt;1</span><br></pre></td></tr></table></figure>
+
+<h3 id="二、合并代码"><a href="#二、合并代码" class="headerlink" title="二、合并代码"></a>二、合并代码</h3><h4 id="1、查看所有分支（其中带-号的：当前使用分支）"><a href="#1、查看所有分支（其中带-号的：当前使用分支）" class="headerlink" title="1、查看所有分支（其中带 * 号的：当前使用分支）"></a>1、查看所有分支（其中带 * 号的：当前使用分支）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -a1</span><br></pre></td></tr></table></figure>
+
+<h4 id="2、切换分支"><a href="#2、切换分支" class="headerlink" title="2、切换分支"></a>2、切换分支</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout &lt;分支名称&gt;1</span><br></pre></td></tr></table></figure>
+
+<h4 id="3、合并某分支到当前分支："><a href="#3、合并某分支到当前分支：" class="headerlink" title="3、合并某分支到当前分支："></a>3、合并某分支到当前分支：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge &lt;分支名称&gt; ： 把develop 合并到master–&gt; git merge develop1</span><br></pre></td></tr></table></figure>
+
+<h4 id="4、提交合并的代码-："><a href="#4、提交合并的代码-：" class="headerlink" title="4、提交合并的代码 ："></a>4、提交合并的代码 ：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git pull :拉取当前仓库的代码</span><br><span class="line">git push origin &lt;分支名称&gt; 合并提交 到主分支上12</span><br></pre></td></tr></table></figure>
+
+<p>额外补充</p>
+<h4 id="用到的git命令："><a href="#用到的git命令：" class="headerlink" title="用到的git命令："></a>用到的git命令：</h4><h4 id="1、创建分支："><a href="#1、创建分支：" class="headerlink" title="1、创建分支："></a>1、创建分支：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch &lt;分支名称&gt;1</span><br></pre></td></tr></table></figure>
+
+<h4 id="2、查看所有分支"><a href="#2、查看所有分支" class="headerlink" title="2、查看所有分支"></a>2、查看所有分支</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -a1</span><br></pre></td></tr></table></figure>
+
+<h4 id="3、切换分支"><a href="#3、切换分支" class="headerlink" title="3、切换分支"></a>3、切换分支</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout &lt;分支名称&gt;1</span><br></pre></td></tr></table></figure>
+
+<h4 id="4、合并某分支到当前分支："><a href="#4、合并某分支到当前分支：" class="headerlink" title="4、合并某分支到当前分支："></a>4、合并某分支到当前分支：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge &lt;分支名称&gt;1</span><br></pre></td></tr></table></figure>
+
+<h4 id="5、创建-切换分支："><a href="#5、创建-切换分支：" class="headerlink" title="5、创建+切换分支："></a>5、创建+切换分支：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b &lt;分支名称&gt;</span><br></pre></td></tr></table></figure>
+  
+  
+    
+    <div class='footer'>
+      
+      
+      
+        <div class='copyright'>
+          <blockquote>
+            
+              
+                <p>博客内容遵循 4.0 国际 (CC BY-NC-SA 4.0) 协议</p>
+
+              
+            
+              
+                <p>作者：Hotzimi</p>
+
+              
+            
+              
+                <p>本文永久链接是：<a href=http://example.com/2020/11/29/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/>http://example.com/2020/11/29/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/</a></p>
+              
+            
+          </blockquote>
+        </div>
+      
+      
+    </div>
+  
+  
+    
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-11-29T02:23:34+08:00">
+  <a class='notlink'>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：Nov 29, 2020</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
     
       
-        上传本地代码第一步：去github上创建自己的Repository，创建页面如下图所示：红框为新建的仓库的https地址第二步：
-
-echo “# aaa” &gt;&gt; README.md注意：aaa是新创建的仓库名
-
-第三步：建立git仓库
-
-git init
-
-第四步：将项目的所有文件添加到仓库中
-
-git add .
-
-第五步：
-
-git add README.md
-
-第六步：提...
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2020/11/29/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/&title=关于更新代码 - 拨雪寻春&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" srcset="data:image/png;base64,666">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2020/11/29/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/&title=关于更新代码 - 拨雪寻春&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" srcset="data:image/png;base64,666">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2020/11/29/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/&title=关于更新代码 - 拨雪寻春&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" srcset="data:image/png;base64,666">
+          
+        </a>
+      
+    
+      
+    
       
     
   </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time>2020-11-29</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%8C%87%E5%8D%97/">指南</a>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2020/11/29/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/'>
-            Read More
-          </a>
-        </div>
-      
-    </div>
-  
-
 </div>
 
-          </div>
+
+
         
       
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/11/29/Myname/">
-        <img class='headimg' src='https://cdn.jsdelivr.net/gh/Hotzimi/Images@1.12/markdown/2.jpg'/>
-      </a>
     </div>
-  
-  
-    
-    <h2 class="article-title" >
-      <a href="/2020/11/29/Myname/">
-        关于我
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
-      
-        欢迎来到杜王町大家早上中午下午好，欢迎收听杜王町429广播台，我是你们的邻居乔太郎，今天打来电话的是吉良吉影小朋友，请问你有什么问题呢？
-你好，我的名字叫吉良吉影，33岁。住在杜王町东北部的别墅区一带，未婚。我在龟友连锁店服务。每天都要加班到晚上8点才能回家。我不抽烟，酒仅止于浅尝。晚上11点睡，每天要睡足8个小时。睡前，我一定喝一杯温牛奶，然后做20分钟的柔软操，上了床，马上熟睡。一觉到天...
-      
-    
   </div>
+
+
   
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time>2020-11-29</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E5%8D%9A%E5%AE%A2/">博客</a>
-        
-      </div>
+  
+
+  
+    <div class="prev-next">
       
-        <div>
-          <a class='readmore' href='/2020/11/29/Myname/'>
-            Read More
-          </a>
-        </div>
+      
+        <a class='next' href='/2020/11/29/Myname/'>
+          <p class='title'>关于我<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>欢迎来到杜王町大家早上中午下午好，欢迎收听杜王町429广播台，我是你们的邻居乔太郎，今天打来电话的是吉良吉影小朋友，请问你有什么问题呢？
+你好，我的名字叫吉良吉影，33岁。住在杜王町东北部的别墅...</p>
+        </a>
       
     </div>
   
+</article>
 
+
+  
+
+  <article class="post white-box reveal shadow" id="comments">
+    <p ct><i class='fas fa-comments'></i> 评论</p>
+    
+    <div id="valine_container" class="valine_thread">
+  <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
 </div>
 
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/11/29/title/">
-        <img class='headimg' src='https://cdn.jsdelivr.net/gh/Hotzimi/Images@1.12/markdown/4.jpg'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title" >
-      <a href="/2020/11/29/title/">
-        关于如何新建文章
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
-      
-        新建文章
-以win10为例，其他操作系统相似，win+r快捷键，打开cmd命令行，进入文件所在的路径
-
-1$ hexo new title1
+  </article>
 
 
-title就是新建的文章的名字
-
-1234C:\Users\Administrator\Desktop\my_blog&gt;hexo new hello(node:6328) [DEP0061] DeprecationWarning: fs.Sy...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time>2020-11-29</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%8C%87%E5%8D%97/">指南</a>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2020/11/29/title/'>
-            Read More
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/11/26/index/">
-        <img class='headimg' src='https://cdn.jsdelivr.net/gh/Hotzimi/Images@1.12/markdown/3.jpg'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title" >
-      <a href="/2020/11/26/index/">
-        HBoke的小世界
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
-      
-        HBOKE是本人对于未来规划展示的一处小基地，同时也是情绪发泄的小屋，而能在此侃侃而谈，得益于hexo框架的开放，使本人可以根据他人的简易模板进行改造，成为自己喜欢的模样。
-毕业设计内容的总和与归纳添加弹窗通知内容
-未完成
-
-Aplayer音乐播放器
-12345678910111213141516171819202122aplayer:    enable: true    js:   	h...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time>2020-11-26</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%8C%87%E5%8D%97/">指南</a>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2020/11/26/index/'>
-            Read More
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/11/26/hello-world/">
-        <img class='headimg' src='https://cdn.jsdelivr.net/gh/Hotzimi/Images@1.12/markdown/5.png'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title" >
-      <a href="/2020/11/26/hello-world/">
-        欢迎来到Hexo
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
-      
-        欢迎来到Hexo！ 查看有关信息以及文档 documentation . 如果您在使用 Hexo 时遇到任何问题，您可以在故障排除中troubleshooting 也可以在 GitHub上询问我.
-快速入门创建新帖子1$ hexo new &quot;My New Post&quot;
-
-更多信息: 写作
-运行服务器1$ hexo server
-
-更多信息: 服务区
-生成静态文件1$ hex...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time>2020-11-26</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%8C%87%E5%8D%97/">指南</a>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2020/11/26/hello-world/'>
-            Read More
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-    
-  </section>
-  
-    
-  
 
 
-	
+
+
 </div>
 <aside class='l_side'>
   
@@ -606,106 +603,28 @@ Aplayer音乐播放器
     
     
 
-<section class="widget blogger shadow desktop mobile">
-  <div class='content'>
-    
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://cdn.jsdelivr.net/gh/Hotzimi/Images@1.11/celan/1.png'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">拨雪寻春</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="mailto:me@xxx.com"
-              class="social fas fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/volantis-x/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/player/"
-              class="social fas fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
 
-  
 
-  
-    
-    
-  
-
-  <section class="widget category shadow desktop">
+  <section class="widget toc-wrapper shadow desktop mobile" id="toc-div" >
     
   <header>
     
-      <a href='/blog/categories/'><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
+      <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
     
   </header>
 
 
     <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/%E5%8D%9A%E5%AE%A2/" href="/categories/%E5%8D%9A%E5%AE%A2/"
-            id="categoriesE58D9AE5AEA2"
-            ><div class='name'>博客</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%8C%87%E5%8D%97/" href="/categories/%E6%8C%87%E5%8D%97/"
-            id="categoriesE68C87E58D97"
-            ><div class='name'>指南</div><div class='badge'>(4)</div></a></li>
-        
-      </ul>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E4%BB%A3%E7%A0%81"><span class="toc-text">上传本地代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8A%E4%BC%A0%E4%B8%80%E4%B8%AA%E5%B7%B2%E7%BB%8F%E5%AD%98%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%88%B0%E6%9F%90%E4%B8%80%E4%B8%AA%E4%BB%93%E5%BA%93%E4%B8%AD"><span class="toc-text">上传一个已经存在的代码到某一个仓库中</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E8%BF%9B%E5%85%A5%E6%9C%AC%E5%9C%B0%E7%9A%84%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95%EF%BC%8C%E5%8F%B3%E9%94%AE%E2%80%9CGit-Bash-here%E2%80%9D-%E8%B0%83%E5%87%BAgit%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%95%8C%E9%9D%A2%EF%BC%8C%E7%84%B6%E5%90%8E%E8%BE%93%E5%85%A5"><span class="toc-text">1.进入本地的项目目录，右键“Git Bash here”,调出git命令行界面，然后输入</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E5%B0%B1%E6%98%AF%E5%B0%86%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%B0%86%E2%80%9C-%E2%80%9D%E6%8D%A2%E6%88%90%E5%85%B7%E4%BD%93%E7%9A%84%E6%96%87%E4%BB%B6%E5%90%8D"><span class="toc-text">2.就是将目录下的所有文件上传，也可以将“.”换成具体的文件名</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E5%B0%86%E6%9C%AC%E5%9C%B0%E7%9A%84%E4%BB%A3%E7%A0%81%E5%85%B3%E8%81%94%E5%88%B0github%E4%B8%8A"><span class="toc-text">3.将本地的代码关联到github上</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E5%88%B0github%E4%B9%8B%E5%89%8D%E9%9C%80%E8%A6%81%E5%85%88pull"><span class="toc-text">4.上传代码到github之前需要先pull</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93"><span class="toc-text">5.上传代码到远程仓库</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2%E3%80%81%E4%B8%8A%E4%BC%A0%E5%88%B0github"><span class="toc-text">2、上传到github</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81"><span class="toc-text">更新代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E4%B9%8B%EF%BC%8C%E5%85%88pull%EF%BC%8C%E5%86%8Dpush"><span class="toc-text">总之，先pull，再push</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0%E5%85%B6%E4%BB%96%E5%88%86%E6%94%AF"><span class="toc-text">提交代码到其他分支</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81"><span class="toc-text">一、提交代码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1%E3%80%81%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%BA%93%E4%B8%AD"><span class="toc-text">1、提交代码到本地库中</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2%E3%80%81%E6%8B%89%E5%8F%96%E8%AF%A5%E5%88%86%E6%94%AF%E4%B8%8B%E7%9A%84%E5%86%85%E5%AE%B9%EF%BC%8C%E4%B8%8E%E8%87%AA%E5%B7%B1%E5%9C%A8%E6%9C%AC%E5%9C%B0%E5%BA%93%E6%94%B9%E5%86%99%E7%9A%84%E5%90%88%E5%B9%B6"><span class="toc-text">2、拉取该分支下的内容，与自己在本地库改写的合并</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3%E3%80%81%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0github%E4%B8%8A"><span class="toc-text">3、提交代码到github上</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%90%88%E5%B9%B6%E4%BB%A3%E7%A0%81"><span class="toc-text">二、合并代码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1%E3%80%81%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E5%88%86%E6%94%AF%EF%BC%88%E5%85%B6%E4%B8%AD%E5%B8%A6-%E5%8F%B7%E7%9A%84%EF%BC%9A%E5%BD%93%E5%89%8D%E4%BD%BF%E7%94%A8%E5%88%86%E6%94%AF%EF%BC%89"><span class="toc-text">1、查看所有分支（其中带 * 号的：当前使用分支）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2%E3%80%81%E5%88%87%E6%8D%A2%E5%88%86%E6%94%AF"><span class="toc-text">2、切换分支</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3%E3%80%81%E5%90%88%E5%B9%B6%E6%9F%90%E5%88%86%E6%94%AF%E5%88%B0%E5%BD%93%E5%89%8D%E5%88%86%E6%94%AF%EF%BC%9A"><span class="toc-text">3、合并某分支到当前分支：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4%E3%80%81%E6%8F%90%E4%BA%A4%E5%90%88%E5%B9%B6%E7%9A%84%E4%BB%A3%E7%A0%81-%EF%BC%9A"><span class="toc-text">4、提交合并的代码 ：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%A8%E5%88%B0%E7%9A%84git%E5%91%BD%E4%BB%A4%EF%BC%9A"><span class="toc-text">用到的git命令：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1%E3%80%81%E5%88%9B%E5%BB%BA%E5%88%86%E6%94%AF%EF%BC%9A"><span class="toc-text">1、创建分支：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2%E3%80%81%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E5%88%86%E6%94%AF"><span class="toc-text">2、查看所有分支</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3%E3%80%81%E5%88%87%E6%8D%A2%E5%88%86%E6%94%AF"><span class="toc-text">3、切换分支</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4%E3%80%81%E5%90%88%E5%B9%B6%E6%9F%90%E5%88%86%E6%94%AF%E5%88%B0%E5%BD%93%E5%89%8D%E5%88%86%E6%94%AF%EF%BC%9A"><span class="toc-text">4、合并某分支到当前分支：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5%E3%80%81%E5%88%9B%E5%BB%BA-%E5%88%87%E6%8D%A2%E5%88%86%E6%94%AF%EF%BC%9A"><span class="toc-text">5、创建+切换分支：</span></a></li></ol></li></ol>
     </div>
   </section>
 
 
   
 
-  
-    
-    
-
-  
-
-  
-
 
 </aside>
+
 
 
         
@@ -715,14 +634,14 @@ Aplayer音乐播放器
 
 <script>
   window.pdata={}
-  pdata.ispage=false;
-  pdata.postTitle="";
+  pdata.ispage=true;
+  pdata.postTitle="关于更新代码";
   pdata.commentPath="";
   pdata.commentPlaceholder="";
 
   var l_header=document.getElementById("l_header");
   
-  l_header.classList.remove("show");
+  l_header.classList.add("show");
   
 </script>
 
