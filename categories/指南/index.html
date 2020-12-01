@@ -57,7 +57,7 @@
 <body>
   
 
-<header id="l_header" class="l_header auto shadow blur show" style='opacity: 0' >
+<header id="l_header" class="l_header always shadow show"  >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -223,6 +223,8 @@
       <p class="title">Hotzimi</p>
     
     
+      <p class="subtitle">春去秋来，眨眼三年</p>
+    
   </div>
   <div class='bottom'>
     <div class='menu navigation'>
@@ -310,7 +312,7 @@
   
     
     <h2 class="article-title" >
-      <a href="/2020/11/29/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/">
+      <a href="/2020/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/">
         关于更新代码
       </a>
     </h2>
@@ -350,7 +352,7 @@ git add README.md
       </div>
       
         <div>
-          <a class='readmore' href='/2020/11/29/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/'>
+          <a class='readmore' href='/2020/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%A0%81/'>
             Read More
           </a>
         </div>
@@ -370,7 +372,7 @@ git add README.md
   
   
     <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/11/29/title/">
+      <a class='headimg-a' href="/2020/title/">
         <img class='headimg' src='https://cdn.jsdelivr.net/gh/Hotzimi/Images@1.12/markdown/4.jpg'/>
       </a>
     </div>
@@ -378,7 +380,7 @@ git add README.md
   
     
     <h2 class="article-title" >
-      <a href="/2020/11/29/title/">
+      <a href="/2020/title/">
         关于如何新建文章
       </a>
     </h2>
@@ -410,7 +412,7 @@ title就是新建的文章的名字
       </div>
       
         <div>
-          <a class='readmore' href='/2020/11/29/title/'>
+          <a class='readmore' href='/2020/title/'>
             Read More
           </a>
         </div>
@@ -430,7 +432,7 @@ title就是新建的文章的名字
   
   
     <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/11/26/index/">
+      <a class='headimg-a' href="/2020/index/">
         <img class='headimg' src='https://cdn.jsdelivr.net/gh/Hotzimi/Images@1.12/markdown/3.jpg'/>
       </a>
     </div>
@@ -438,7 +440,7 @@ title就是新建的文章的名字
   
     
     <h2 class="article-title" >
-      <a href="/2020/11/26/index/">
+      <a href="/2020/index/">
         HBoke的小世界
       </a>
     </h2>
@@ -467,7 +469,7 @@ Aplayer音乐播放器
       </div>
       
         <div>
-          <a class='readmore' href='/2020/11/26/index/'>
+          <a class='readmore' href='/2020/index/'>
             Read More
           </a>
         </div>
@@ -487,7 +489,7 @@ Aplayer音乐播放器
   
   
     <div class='headimg-div'>
-      <a class='headimg-a' href="/2020/11/26/hello-world/">
+      <a class='headimg-a' href="/2020/hello-world/">
         <img class='headimg' src='https://cdn.jsdelivr.net/gh/Hotzimi/Images@1.12/markdown/5.png'/>
       </a>
     </div>
@@ -495,7 +497,7 @@ Aplayer音乐播放器
   
     
     <h2 class="article-title" >
-      <a href="/2020/11/26/hello-world/">
+      <a href="/2020/hello-world/">
         欢迎来到Hexo
       </a>
     </h2>
@@ -526,7 +528,7 @@ Aplayer音乐播放器
       </div>
       
         <div>
-          <a class='readmore' href='/2020/11/26/hello-world/'>
+          <a class='readmore' href='/2020/hello-world/'>
             Read More
           </a>
         </div>
@@ -692,7 +694,7 @@ Aplayer音乐播放器
       volume='0.7'
       loop='all'
       order='list'
-      fixed='true'
+      fixed='enble'
       list-max-height='320px'
       server='netease'
       type='playlist'
@@ -1048,8 +1050,8 @@ var loadCSS = function( href, before, media, attributes ){
       meta: meta,
       placeholder: pagePlaceholder,
       path: path,
-      appId: "",
-      appKey: "",
+      appId: "wgz53ud2FeTL61lE9JORkJjW-gzGzoHsz",
+      appKey: "WvyOhMGIKCztalPR043XljOO",
       pageSize: '10',
       avatar: 'robohash',
       lang: 'zh-cn',
@@ -1620,5 +1622,18 @@ document.addEventListener("pjax:success", listennSidebarTOC);
 
     
   </div>
-</body>
+  <script src="../js/sakura.js"></script>
+  <script src="../js/mouse_click.js"></script>
+  <script type="text/javascript">
+    var OriginTitile = document.title,
+        st;
+    document.addEventListener("visibilitychange", function () {
+        document.hidden ? (document.title = "春去夏来", clearTimeout(st)) : (document.title =
+            "夏暖秋凉", st = setTimeout(function () {
+                document.title = OriginTitile
+            }, 3e3))
+    })
+</script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+<script type="text/javascript" src="../js/commentTyping.js"></script>
 </html>

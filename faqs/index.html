@@ -55,7 +55,7 @@
 <body>
   
 
-<header id="l_header" class="l_header auto shadow blur show" style='opacity: 0' >
+<header id="l_header" class="l_header always shadow show"  >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -220,6 +220,8 @@
     
       <p class="title">Hotzimi</p>
     
+    
+      <p class="subtitle">春去秋来，眨眼三年</p>
     
   </div>
   <div class='bottom'>
@@ -714,7 +716,7 @@
       volume='0.7'
       loop='all'
       order='list'
-      fixed='true'
+      fixed='enble'
       list-max-height='320px'
       server='netease'
       type='playlist'
@@ -1070,8 +1072,8 @@ var loadCSS = function( href, before, media, attributes ){
       meta: meta,
       placeholder: pagePlaceholder,
       path: path,
-      appId: "",
-      appKey: "",
+      appId: "wgz53ud2FeTL61lE9JORkJjW-gzGzoHsz",
+      appKey: "WvyOhMGIKCztalPR043XljOO",
       pageSize: '10',
       avatar: 'robohash',
       lang: 'zh-cn',
@@ -1642,5 +1644,18 @@ document.addEventListener("pjax:success", listennSidebarTOC);
 
     
   </div>
-</body>
+  <script src="../js/sakura.js"></script>
+  <script src="../js/mouse_click.js"></script>
+  <script type="text/javascript">
+    var OriginTitile = document.title,
+        st;
+    document.addEventListener("visibilitychange", function () {
+        document.hidden ? (document.title = "春去夏来", clearTimeout(st)) : (document.title =
+            "夏暖秋凉", st = setTimeout(function () {
+                document.title = OriginTitile
+            }, 3e3))
+    })
+</script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+<script type="text/javascript" src="../js/commentTyping.js"></script>
 </html>

@@ -55,7 +55,7 @@
 <body>
   
 
-<header id="l_header" class="l_header auto shadow blur show" style='opacity: 0' >
+<header id="l_header" class="l_header always shadow show"  >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -221,6 +221,8 @@
       <p class="title">Hotzimi</p>
     
     
+      <p class="subtitle">春去秋来，眨眼三年</p>
+    
   </div>
   <div class='bottom'>
     <div class='menu navigation'>
@@ -337,7 +339,7 @@
   <div class="new-meta-item browse leancloud">
     <a class='notlink'>
       
-      <div id="lc-pv" data-title="关于如何新建文章" data-path="/2020/11/29/title/">
+      <div id="lc-pv" data-title="关于如何新建文章" data-path="/2020/title/">
         <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
         <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
         次浏览
@@ -413,12 +415,22 @@
               
             
               
-                <p>本文永久链接是：<a href=http://example.com/2020/11/29/title/>http://example.com/2020/11/29/title/</a></p>
+                <p>本文永久链接是：<a href=http://example.com/2020/title/>http://example.com/2020/title/</a></p>
               
             
           </blockquote>
         </div>
       
+      
+        <div class='donate'>
+          <div class='imgs'>
+            
+              <img src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png'>
+            
+              <img src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png'>
+            
+          </div>
+        </div>
       
     </div>
   
@@ -452,7 +464,7 @@
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2020/11/29/title/&title=关于如何新建文章 - 拨雪寻春&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2020/title/&title=关于如何新建文章 - 拨雪寻春&summary="
           
           >
           
@@ -464,7 +476,7 @@
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2020/11/29/title/&title=关于如何新建文章 - 拨雪寻春&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2020/title/&title=关于如何新建文章 - 拨雪寻春&summary="
           
           >
           
@@ -476,7 +488,7 @@
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2020/11/29/title/&title=关于如何新建文章 - 拨雪寻春&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2020/title/&title=关于如何新建文章 - 拨雪寻春&summary="
           
           >
           
@@ -506,14 +518,14 @@
   
     <div class="prev-next">
       
-        <a class='prev' href='/2020/11/29/Myname/'>
+        <a class='prev' href='/2020/Myname/'>
           <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>关于我</p>
           <p class='content'>欢迎来到杜王町大家早上中午下午好，欢迎收听杜王町429广播台，我是你们的邻居乔太郎，今天打来电话的是吉良吉影小朋友，请问你有什么问题呢？
 你好，我的名字叫吉良吉影，33岁。住在杜王町东北部的别墅...</p>
         </a>
       
       
-        <a class='next' href='/2020/11/26/index/'>
+        <a class='next' href='/2020/index/'>
           <p class='title'>HBoke的小世界<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
           <p class='content'>HBOKE是本人对于未来规划展示的一处小基地，同时也是情绪发泄的小屋，而能在此侃侃而谈，得益于hexo框架的开放，使本人可以根据他人的简易模板进行改造，成为自己喜欢的模样。
 毕业设计内容的总和与...</p>
@@ -606,7 +618,7 @@
       volume='0.7'
       loop='all'
       order='list'
-      fixed='true'
+      fixed='enble'
       list-max-height='320px'
       server='netease'
       type='playlist'
@@ -962,8 +974,8 @@ var loadCSS = function( href, before, media, attributes ){
       meta: meta,
       placeholder: pagePlaceholder,
       path: path,
-      appId: "",
-      appKey: "",
+      appId: "wgz53ud2FeTL61lE9JORkJjW-gzGzoHsz",
+      appKey: "WvyOhMGIKCztalPR043XljOO",
       pageSize: '10',
       avatar: 'robohash',
       lang: 'zh-cn',
@@ -1534,5 +1546,18 @@ document.addEventListener("pjax:success", listennSidebarTOC);
 
     
   </div>
-</body>
+  <script src="../js/sakura.js"></script>
+  <script src="../js/mouse_click.js"></script>
+  <script type="text/javascript">
+    var OriginTitile = document.title,
+        st;
+    document.addEventListener("visibilitychange", function () {
+        document.hidden ? (document.title = "春去夏来", clearTimeout(st)) : (document.title =
+            "夏暖秋凉", st = setTimeout(function () {
+                document.title = OriginTitile
+            }, 3e3))
+    })
+</script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+<script type="text/javascript" src="../js/commentTyping.js"></script>
 </html>
